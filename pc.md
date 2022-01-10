@@ -21,8 +21,14 @@ Welcome to day 1 at BloomTech, today we are going to spend time setting up your 
 Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You can type your answer below the questions. You are going to need to start familiarizing yourself with the [GitHub docs](https://docs.github.com/en) doc short for documentation are the instructions on how to use a languge, or program. A large part of your job as a developer will be learning how to read and work with documentation. Please reference the GitHub docs when answering the questions below. If you cannot find what you are looking for in the docs, you can always start to practice your google skills. 
 
 1. What is git? What is the difference between git and GitHub?
+Git is a version control system that lets you manage and keep track of your source code history. GitHub is a cloud-based hosting service that lets you manage Git repositories.
 2. Why do we create a branch? 
+we create branches to add our own code and to edit existing code 
 3. What is the purpose of a pull request? 
+it is to notify your team that changes have been made and they will be able to check your changes
 4. What is the command you can use to switch between branches? For example you are working on a feature branch and you want to switch back to main. 
+use git checkout or git switch and then whatever branch you would like to switch to
 5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do? 
+The git fetch command downloads commits, files, and refs from a remote repository into your local repo, The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch, and The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content
 6. What is a merge conflict? How do you resolve a merge conflict? 
+. Merge conflicts occur when competing changes are made to the same line of a file. You can resolve merge conflicts using the command line and a text editor
